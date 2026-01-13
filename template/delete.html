@@ -1,0 +1,6 @@
+<h2>Elimina esto</h2>
+<form method = "post">
+    {%csrf_token%}
+    <p>¿Estás seguro de que deseas eliminar "{{ object }}"?</p>
+    <button type = 'submit'>Elimina esta</button>
+</form>
